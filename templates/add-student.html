@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/add-student" method="POST">
+    {% csrf_token %}
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br>
+
+  <label for="roll_no">Roll No:</label><br>
+  <input type="text" id="roll_no" name="roll_no"><br>
+
+  <label for="city">City:</label><br>
+  <input type="text" id="city" name="city"><br>
+
+  <label for="div">Div:</label><br>
+  <input type="text" id="div" name="div"><br>
+
+  <label for="mobile_no">Mobile No:</label><br>
+  <input type="text" id="mobile_no" name="mobile_no"><br>
+
+  <input type="submit" value="Submit">
+</form> 
+
+
+</body>
+</html>
+
